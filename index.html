@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Object Assignment</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <select name="" id="brand" onchange="selectBrand()" class="form-control">
+                    <option value="">Select Brand</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select name="" id="model" onchange="selectModel()" class="form-control">
+                    <option>Select Model</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select name="" id="device" onchange="selectDevice()" class="form-control">
+                    <option value="">Select Device</option>
+                </select>
+            </div>
+            <div class="card">
+                <div id="brand-details">
+
+                </div>
+            </div>
+            <div id="model-details"></div>
+            <div id="device-details"></div>
+        </div>
+    </div>
+</body>
+
+<script src="app.js"></script>
+
+</html>

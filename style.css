@@ -1,0 +1,47 @@
+/* Custom CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#brand-details {
+    margin-top: 20px;
+}
+
+#model-details {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#device-details {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 5px;
+}
+
+.btn {
+    margin-right: 10px;
+}
